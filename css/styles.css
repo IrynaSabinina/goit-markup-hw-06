@@ -675,7 +675,6 @@ address {
 .form-input-mail {
   display: flex;
   flex-direction: column;
-  color: var(--social-icon);
 }
 
 .form-input-mail input {
@@ -686,7 +685,13 @@ address {
   border: 1px solid rgba(255, 255, 255, 0.3);
   background-color: var(--bj-hero);
   border-radius: 4px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
 }
+
 .form-input-mailinput::placeholder {
   font-size: 16px;
   line-height: 20px;
