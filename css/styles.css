@@ -1000,6 +1000,15 @@ address {
 .agreement {
   display: flex;
   margin-top: 20px;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.agreement.text {
+  display: flex;
+  margin-top: 20px;
   align-items: center;
   justify-content: center;
   margin-left: auto;
