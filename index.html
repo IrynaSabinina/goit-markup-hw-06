@@ -499,11 +499,90 @@
             </li>
           </ul>
         </div>
+        <form class="subscribe">
+          <div class="form-input-mail">
+            <label for="mail" class="form-label">Подпишитесь на рассылку</label>
+            <input
+              type="mail"
+              name="mail"
+              id="mail"
+              placeholder="E-mail"
+              required
+            />
+          </div>
+          <button type="submit" class="button-subscribe">Подписаться</button>
+        </form>
       </div>
     </footer>
 
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
+        <b class="modal-text">Оставьте свои данные, мы вам перезвоним</b>
+        <form class="modal-form">
+          <label class="modal-label">
+            <span class="label-text">Имя</span>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              class="modal-input"
+              required
+              autofocus
+            />
+            <svg class="modal-icon">
+              <use href="./images/icons.svg#icon-Vector"></use>
+            </svg>
+          </label>
+
+          <label class="modal-label">
+            <span class="label-text">Телефон</span>
+            <input
+              type="tel"
+              name="tel"
+              id="tel"
+              class="modal-input"
+              required
+            />
+            <svg class="modal-icon">
+              <use href="./images/icons.svg#icon-Vector-1"></use>
+            </svg>
+          </label>
+
+          <label class="modal-label">
+            <span class="label-text">Почта</span>
+            <input
+              type="mail"
+              name="mail"
+              id="mail"
+              class="modal-input"
+              required
+            />
+            <svg class="modal-icon">
+              <use href="./images/icons.svg#icon-Vector-2"></use>
+            </svg>
+          </label>
+
+          <label class="modal-label">
+            <span class="label-text">Комментарий</span>
+            <textarea
+              name="text"
+              rows="10"
+              class="modal-input textarea"
+              placeholder="Введите текст"
+            ></textarea>
+          </label>
+
+          <label class="check">
+            <input type="checkbox" class="check-input" />
+            <span class="check-box"></span>
+            <span class="agreement-text"
+              >Соглашаюсь с рассылкой и принимаю</span
+            >
+            <a href="" class="agrement-link accent">Условия договора</a>
+          </label>
+        </form>
+
+        <button type="submit" class="registration-btn">Отправить</button>
         <button type="button" class="button-close" data-modal-close></button>
       </div>
     </div>
